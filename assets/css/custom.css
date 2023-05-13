@@ -1,4 +1,4 @@
-main {
+form {
   margin: auto;
   margin-top: 10rem;
   margin-bottom: 5rem;
@@ -21,6 +21,7 @@ main {
   margin-top: 1.5rem;
 }
 
-#message-9, #message-10 {
+#message-9,
+#message-10 {
   margin-top: 2rem;
 }/*# sourceMappingURL=custom.css.map */
