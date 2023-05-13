@@ -19,7 +19,8 @@ main {
 .onboarding-question {
   margin: auto;
   max-width: 500px;
+
+  & select {
+    margin-top: 1.5rem;
+  }
 }
-.onboarding-question select {
-  margin-top: 1.5rem;
-}/*# sourceMappingURL=custom.css.map */
