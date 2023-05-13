@@ -1,5 +1,5 @@
 import './App.css';
-import { Chat } from './components/Chat';
+import { Chat } from './chat/Chat';
 import { Dashboard } from './components/Dashboard';
 
 function App() {
