@@ -8,10 +8,6 @@ main {
   display: none;
 }
 
-.onboarding-question {
-  text-align: center;
-}
-
 .button-onboarding {
   margin-top: 2rem;
 }
@@ -19,7 +15,12 @@ main {
 .onboarding-question {
   margin: auto;
   max-width: 500px;
+  text-align: center;
 }
 .onboarding-question select {
   margin-top: 1.5rem;
+}
+
+#message-9, #message-10 {
+  margin-top: 2rem;
 }/*# sourceMappingURL=custom.css.map */
