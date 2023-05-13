@@ -1,5 +1,17 @@
-.onboarding{
-    margin-top: 10rem;
-    margin-bottom: 2rem;
+main {
+  margin: auto;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
 
+.hidden {
+  display: none;
+}
+
+.onboarding-question {
+  text-align: center;
+}
+
+.button-onboarding {
+  margin-top: 2rem;
 }
