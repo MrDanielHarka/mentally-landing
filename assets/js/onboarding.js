@@ -48,7 +48,7 @@ const addEventListenerToAllQuestionElements = () => {
           document.querySelector(
             `.onboarding-question-${questionElements.length}`
           ).innerHTML =
-            'Thanks for completing the onboarding process! <br> <br> You´ll receive an email with your login details soon. <br> <br> <a href="index.html">Go to the homepage</a>';
+            'Thanks for completing the onboarding process! <br> <br> You will receive a confirmation email soon. <br> <br> <a href="index.html">Go to the homepage</a>';
           sendRegisteredUserData();
         });
     } else {
