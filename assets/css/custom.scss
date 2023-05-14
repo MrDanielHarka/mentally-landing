@@ -40,3 +40,25 @@ form {
     margin-right: 0.5rem;
   }
 }
+
+
+@media (max-width: 991px) {
+  .header-area.header-sticky .logo {
+    justify-content: center; /* Change to center */
+    align-items: center;
+    align-content: center;
+    display: flex;
+    //margin-bottom: 1.2rem;
+
+
+  }
+
+  .header-area.header-sticky .logo img {
+    margin-right: 0 !important; /* Remove margin */
+    //margin-bottom: 0.5rem; /* Add margin-bottom instead */
+    
+    margin-bottom: 1.2rem;
+    margin-top: 0 !important;
+    
+  }
+}

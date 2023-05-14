@@ -37,4 +37,18 @@ form {
 }
 .header-area.header-sticky .logo img {
   margin-right: 0.5rem;
+}
+
+@media (max-width: 991px) {
+  .header-area.header-sticky .logo {
+    justify-content: center; /* Change to center */
+    align-items: center;
+    align-content: center;
+    display: flex;
+  }
+  .header-area.header-sticky .logo img {
+    margin-right: 0 !important; /* Remove margin */
+    margin-bottom: 1.2rem;
+    margin-top: 0 !important;
+  }
 }/*# sourceMappingURL=custom.css.map */
