@@ -27,7 +27,7 @@ form {
 }
 
 .header-area.header-sticky .logo {
-  margin-top: 1rem;
+  margin-top: 0 !important;
   display: flex;
   align-items: center;
   align-content: center;
@@ -39,16 +39,20 @@ form {
   margin-right: 0.5rem;
 }
 
+.nav {
+  margin-top: 0 !important;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 @media (max-width: 991px) {
-  .header-area.header-sticky .logo {
-    justify-content: center; /* Change to center */
-    align-items: center;
-    align-content: center;
-    display: flex;
+  .main-nav {
+    display: block;
   }
-  .header-area.header-sticky .logo img {
-    margin-right: 0 !important; /* Remove margin */
-    margin-bottom: 1.2rem;
-    margin-top: 0 !important;
+  .logo {
+    padding-top: 1rem;
   }
 }/*# sourceMappingURL=custom.css.map */
