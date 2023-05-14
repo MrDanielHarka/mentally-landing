@@ -24,4 +24,17 @@ form {
 #message-9,
 #message-10 {
   margin-top: 2rem;
+}
+
+.header-area.header-sticky .logo {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  color: #8261ee;
+  font-weight: bold;
+}
+.header-area.header-sticky .logo img {
+  margin-right: 0.5rem;
 }/*# sourceMappingURL=custom.css.map */
