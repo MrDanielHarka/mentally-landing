@@ -1,3 +1,35 @@
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+
+  a {
+    color: #8261ee;
+  }
+
+  &-content {
+    background-color: #fff;
+    text-align: center;
+    width: 300px;
+    padding: 2rem 2rem 3rem 2rem;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+    .button-close {
+      color: #fff;
+    }
+  }
+}
+
 form {
   margin: auto;
   margin-top: 10rem;
